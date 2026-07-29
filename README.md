@@ -4,8 +4,6 @@ MATLAB code for computing Lyapunov exponents — the standard quantitative measu
 
 Final-year project, BSc Mathematics, University of Reading (MA3PPR, May 2025).
 
-## What's here
-
 **Logistic map** `x_{i+1} = r·x_i(1 - x_i)`
 
 - Largest Lyapunov exponent at a fixed `r` (λ ≈ −0.8725 at r = 3.5)
@@ -17,7 +15,7 @@ Final-year project, BSc Mathematics, University of Reading (MA3PPR, May 2025).
 - Solved with a hand-rolled 4th-order Runge–Kutta integrator, h = 0.01, t ∈ [0, 100]
 - Largest Lyapunov exponent via the renormalised-perturbation method (Sprott, 2015): λ<sub>max</sub> ≈ 0.90–0.91
 
-**Write-up** — `Report.pdf` also derives the tent-map exponent analytically (λ = ln 2) and sets out the Benettin/Gram–Schmidt algorithm for the full Lyapunov spectrum, via Oseledec's multiplicative ergodic theorem.
+`Report.pdf` also derives the tent-map exponent analytically (λ = ln 2) and sets out the Benettin/Gram–Schmidt algorithm for the full Lyapunov spectrum, via Oseledec's multiplicative ergodic theorem.
 
 ## Files
 
