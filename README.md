@@ -1,6 +1,6 @@
 
 
-MATLAB code for computing Lyapunov exponents, the standard quantitative measure of how fast nearby trajectories separate, and the sharpest test of whether a system is chaotic. Final-year project at The University of Reading
+MATLAB code for computing Lyapunov exponents, the standard quantitative measure of how fast nearby trajectories separate, and the sharpest test of whether a system is chaotic. Final-year project at The University of Reading. Results and analysis given in [Report2.pdf](Report2.psf)
 
 **Logistic map** `x_{i+1} = r·x_i(1 - x_i)`
 
@@ -13,7 +13,7 @@ MATLAB code for computing Lyapunov exponents, the standard quantitative measure 
 - Solved with a hand-rolled 4th-order Runge–Kutta integrator, h = 0.01, t ∈ [0, 100]
 - Largest Lyapunov exponent via the renormalised-perturbation method (Sprott, 2015): λ<sub>max</sub> ≈ 0.90–0.91
 
-[Report2.pdf](Report2.pdf) also derives the tent-map exponent analytically (λ = ln 2) and sets out the Benettin/Gram–Schmidt algorithm for the full Lyapunov spectrum, via Oseledec's multiplicative ergodic theorem.
+The report also derives the tent-map exponent analytically (λ = ln 2) and sets out the Benettin/Gram–Schmidt algorithm for the full Lyapunov spectrum, via Oseledec's multiplicative ergodic theorem.
 
 ## Files
 
