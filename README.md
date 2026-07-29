@@ -1,6 +1,6 @@
 
 
-MATLAB code for computing Lyapunov exponents — the standard quantitative measure of how fast nearby trajectories separate, and the sharpest test of whether a system is chaotic.
+MATLAB code for computing Lyapunov exponents, the standard quantitative measure of how fast nearby trajectories separate, and the sharpest test of whether a system is chaotic.
 
 Final-year project, BSc Mathematics, University of Reading (MA3PPR, May 2025).
 
