@@ -2,6 +2,8 @@
 
 MATLAB code for computing Lyapunov exponents, the standard quantitative measure of how fast nearby trajectories separate, and the sharpest test of whether a system is chaotic. Final-year project at The University of Reading. Results and analysis given in [Report2.pdf](Report2.psf).
 
+**Overview**
+
 **Logistic map** `x_{i+1} = r·x_i(1 - x_i)`
 
 - Largest Lyapunov exponent at a fixed `r` (λ ≈ −0.8725 at r = 3.5)
