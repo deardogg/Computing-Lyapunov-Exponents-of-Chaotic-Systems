@@ -21,7 +21,7 @@ Final-year project, BSc Mathematics, University of Reading (MA3PPR, May 2025).
 
 | File | Purpose |
 |---|---|
-| `PPRCHAOS2.m` | λ for the logistic map, r = 3.5 |
+| `PPRCHAOS.m` | λ for the logistic map, r = 3.5 |
 | `PPRCHAOS2.m` | λ against r |
 | `PPRCHAOS3.m` | Time series, r = 2 vs r = 3.8 |
 | `PPRCHAOS4.m` | Perturbed time series |
