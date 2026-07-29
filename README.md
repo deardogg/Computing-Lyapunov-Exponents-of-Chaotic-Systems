@@ -15,13 +15,13 @@ Final-year project, BSc Mathematics, University of Reading (MA3PPR, May 2025).
 - Solved with a hand-rolled 4th-order Runge–Kutta integrator, h = 0.01, t ∈ [0, 100]
 - Largest Lyapunov exponent via the renormalised-perturbation method (Sprott, 2015): λ<sub>max</sub> ≈ 0.90–0.91
 
-`Report.pdf` also derives the tent-map exponent analytically (λ = ln 2) and sets out the Benettin/Gram–Schmidt algorithm for the full Lyapunov spectrum, via Oseledec's multiplicative ergodic theorem.
+[Report2.pdf](Report2.pdf) also derives the tent-map exponent analytically (λ = ln 2) and sets out the Benettin/Gram–Schmidt algorithm for the full Lyapunov spectrum, via Oseledec's multiplicative ergodic theorem.
 
 ## Files
 
 | File | Purpose |
 |---|---|
-| `PPRCHAOS.m` | λ for the logistic map, r = 3.5 |
+| `PPRCHAOS2.m` | λ for the logistic map, r = 3.5 |
 | `PPRCHAOS2.m` | λ against r |
 | `PPRCHAOS3.m` | Time series, r = 2 vs r = 3.8 |
 | `PPRCHAOS4.m` | Perturbed time series |
